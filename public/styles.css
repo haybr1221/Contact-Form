@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Roboto, Georgia, Serif;
+}
+
+header {
+    display: flex;
+    justify-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-weight: bolder;
+    height: 60px;
+}
+
+    header p {
+        color: white;
+        text-align: left;
+    }
+
+    header a {
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+
+    header a:hover {
+        background-color: aliceblue;
+        color: black;
+    }
+
+h1 {
+    font-family: Roboto, Georgia, Serif;
+    font-weight: bold;
+    color: #e18700;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#form-container {
+    width: 60%;
+}
+
+form {
+    width: 80%;
+    height: 600px;
+    margin: 40px;
+}
+
+input, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: Roboto, Georgia, Serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 20px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+.label {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+#submit {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.2s;
+    margin-top: 2rem;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+}
